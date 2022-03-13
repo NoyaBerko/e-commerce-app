@@ -1,97 +1,138 @@
 # e-commerce-app
 
-This is a responsive app of an online clothing store.
-The user can see products from various categories of clothes, he can mark favourite items he liked or put them straight in the shopping cart and purchase it.
+This is an e-commerce responsive website that offers a wide range of clothing categories.\
+A user can see photos of clothes and their details, add them to the shopping cart and make a purchase.
+
+This app is part of my learning project that will include the following features: \
+
+-   Responsive design
+-   Payment functionality
+-   Database for storing and retrieving user and products data.
+-   ........... add more
+-   התחברות באמצעות חשבון קיים
 
 ## App pages
 
 ---
 
--   **Homepage**
+-   **Home**
 
-    _This is the main screen of the site where the user will be exposed to the best-selling items, the recommendations of the stylists and will also be able to see the variety of existing categories and choose to view items in a specific category._
+    _This is the main page of the app._
 
----
+    _On this page :_
 
--   **Registration page**
-
-    _This page accepts new user credentials and creates a new use in the database._  
-    _It is possible for the user to register via his Facebook or Gmail account._  
-    _After registration the user will be redirected to the login page._
-
-    _Please note that the user can choose not to register and still view the site, but if he wants to make a purchase he will have to register first._
+    -   At the top of the page the user will see the best selling items.
+    -   The user will be exposed to the different clothing categories, and by clicking on a specific one he or she will be sble to view the clothes that belongs to it.
+    -   Also, the user will be able to view the stylists' recommendations.
 
 ---
 
--   **Login page**
+-   **Registration**
 
-    _This page is responsible for connecting a registered user to the site by checking his details on database._
+    _On this page :_
 
----
+    -   In order to register for the site, the user will fill out a registration form with his personal details.
+    -   The user can choose to register through his Facebook or Gmail account.
+    -   After registration the user will be redirected to the login page.
 
--   **Category page**
-
-    _If the user selected one of the categories that appear on the home page, he will be sent to this page ,where the clothing details classified by the category he has chosen._  
-    _Each item in the list of items will have a picture, a short description (including price)._  
-    _The user can mark favorite items by clicking on a heart icon that will appear in the corner of the item image._
-
----
-
--   **Product page**
-
-    _If the user wants to view a particular item in detail - he will be moved to this page when the item is clicked._  
-    _This page will display an extended description of the product, including the option to select a size and view additional images of it._
-    _A cart icon will also appear if the user wants to purchase the product._
+    \
+    _Please note that the user does'nt have to register to the site,
+    but in order to make a purchase he will be required to do so._
 
 ---
 
--   **Favorites page**
+-   **Login**
 
-    _This page will contain all the items that the user has marked in the heart icon._
-    _Items marked as Favorites by a user who is not registered on the site will be deleted when leaving the site._  
-    _For a registered user the favorite items will be saved on the page._
+    _On this page :_
 
----
+    -   The user can log-in to the app.
 
--   **Cart page**
-
-    _This page will contain all the items that the user is interested in purchasing._  
-    _It will be possible to delete or add items to the cart on this page._
+    _This page is responsible for connecting a registered user to the site by checking his details on database._  
+    להשאיר את החלק הזה?
 
 ---
 
--   **Purchase page**
+-   **Category**
 
-    _A user who wishes to proceed with the purchase of the products in the cart will be redirected to this page._
-    _Here he will fill in the credit card information, residential address and more._
+    _On this page :_
+
+    -   The user is redirected to this page if he or she has chosen to view a particular category.
+    -   The user will see the pictures of the clothes relevant to the category, a brief description and other details, including the price.
+    -   In addition, the user can save favorites clothes by marking the heart sign on the cloth picture.
+
+---
+
+-   **Product**
+
+    _On this page :_
+
+    -   After clicking on one of the pictures of the clothes, the user will be redirected to this page.
+    -   The user will be able to view additional pictures and details of the garment.
+    -   Here the user will be able to choose the appropriate size and add the garment to the shopping cart.
+
+---
+
+-   **Favorites**
+
+    _On this page :_
+
+    -   The user can view all the clothes he or she wanted to save.
+    -   The saved clothes of logged-in (registered) user will be saved on this page,
+        however the saved clothes of an unregistered user will dissappear after leaving the app.
+
+---
+
+-   **Cart**
+
+    _On this page :_
+
+    -   The user will be able to see all the clothes he or she is intrested in purchasing.
+
+---
+
+-   **Checkout**
+
+    _On this page :_
+
+    -   To complete the purchase, the user will be redirected to this page.
+    -   The user will fill in the required payment information such as credit card details, shipping address and more...
 
 ---
 
 ---
 
-## Navigation menu will contain the following links :
+## Navigation menu
+
+The app's navigation menu will handle all of the following routes that a user can navigate to :
+
+\
+**User account page features**
+
+1. Links to the registration / login or logout page (depending on user status).
+2. Previous purchases.
+3. User information.
+4. Custom notificatios.
+5. Light / Dark display mode.
+6. Ways of contact and general information.
+7. Gift card purchase.
+
+**Favorites page**\
+**Cart page**\
+**Search button**\
+**Homepage**
 
 ---
-
--   **User account page :**
-
-    -   _Links to the registration / login / logout page (depending on user status)_
-    -   _Previous purchases_
-    -   _user information_
-    -   _Notificatios_
-    -   _Light / Dark display mode_
-    -   _Ways of contact and general information_
-    -   _Purchase of a gift card_
-
--   **Favorites page**
--   **Cart page**
--   **Search button**
--   **Homepage**
 
 ---
 
 ## Technologies:
 
-The app is written by React-TypeScript.
-
-#More technical information will be upload soon...
+1. React - UI package from Facebook.
+2. Vite - Next Generation Frontend Tooling.
+3. Typescript - A super-set of javascript.
+4. Styled-components - Visual primitives for the component age.
+5. Storybook - A tool for building UI components.
+6. Eslint - Linter for JavaScript code (+ airb&b config).
+7. Prettier - An opinionated code formatter.
+8. Git - Version control system.
+9. Github - Version control sharing platform.
