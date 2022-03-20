@@ -9,6 +9,7 @@ import Product from './pages/Product';
 import UserAccount from './pages/UserAccount';
 
 const App = () => {
+    const test = 1;
     return (
         <div className="App">
             <BrowserRouter>
